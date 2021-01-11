@@ -12,7 +12,7 @@ sudo -u postgres psql
 create database &lt;dbname&gt; ;
 
 # Create a user and grant permissions (text in <> brackets indicates a value that you choose.  the brackets should be left out)
-create user &lt; username &gt; with encrypted password '&lt;password&gt;';
+create user &lt;username&gt; with encrypted password '&lt;password&gt;';
 grant all privileges on database &lt;dbname&gt; to &lt;username&gt; ; 
 
 # Going Forward
