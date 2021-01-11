@@ -7,13 +7,13 @@ sudo apt install postgresql postgresql-contrib
 # Start the Service
 sudo service postgresql start
 
-# Create a sample db (text in <> brackets indicates a value that you choose.  the brackets should be left out)
+# Create a sample db (text in &lt; &gt; brackets indicates a value that you choose.  the brackets should be left out)
 sudo -u postgres psql
-create database <dbname>;
+create database &lt; dbname &gt; ;
 
 # Create a user and grant permissions (text in <> brackets indicates a value that you choose.  the brackets should be left out)
-create user <username> with encrypted password '<password>';
-grant all privileges on database <dbname> to <username>; 
+create user &lt; username &gt; with encrypted password ' &lt; password &gt; ';
+grant all privileges on database &lt; dbname &gt; to &lt; username &gt; ; 
 
 # Going Forward
 When starting the Ubuntu shell, you will need to start the service using sudo service postgresql start
