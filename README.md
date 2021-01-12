@@ -1,5 +1,7 @@
 ## Requires a working Ubuntu setup under WSL
 
+The following steps should be performed in the Ubuntu terminal
+
 ### Install the Service
 sudo apt update
 
