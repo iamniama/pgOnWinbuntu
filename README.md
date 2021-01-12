@@ -20,6 +20,9 @@ create user &lt;username&gt; with encrypted password '&lt;password&gt;';
 
 grant all privileges on database &lt;dbname&gt; to &lt;username&gt; ; 
 
+exit;
+
+
 ### Going Forward
 When starting the Ubuntu shell, you will need to start the service using sudo service postgresql start
 (need to look at an init mechanism so PG starts on its own)
